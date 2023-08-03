@@ -17,8 +17,3 @@ app.use(origenRoutes);
 app.get('/', (req, res) => {
   res.send('¡Bienvenido a mi aplicación Express!'); // Aquí puedes poner tu mensaje personalizado
 });
-
-// Iniciar el servidor
-app.listen(5652, () => {
-  console.log('Servidor iniciado en el puerto 5652');
-});
