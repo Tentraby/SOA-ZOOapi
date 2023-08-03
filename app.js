@@ -6,6 +6,7 @@ const especieRoutes = require('./routes/especieRoutes');
 const habitatRoutes = require('./routes/habitatRoutes');
 const origenRoutes = require('./routes/origenRoutes');
 
+const PORT = process.env.PORT || 3000;
 
 // Rutas de la API
 app.use(animalRoutes);
@@ -20,5 +21,5 @@ app.get('/', (req, res) => {
 
 // Iniciar el servidor
 app.listen(PORT, () => {
-  console.log('Servidor iniciado en el puerto ');
+  console.log('Servidor iniciado en el puerto ${PORT}');
 });
