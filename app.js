@@ -14,6 +14,9 @@ app.use(especieRoutes);
 app.use(habitatRoutes);
 app.use(origenRoutes);
 
+app.get('/', (req, res) => {
+  res.send('¡Bienvenido a mi aplicación Express!'); // Aquí puedes poner tu mensaje personalizado
+});
 
 // Iniciar el servidor
 app.listen(3000, () => {
