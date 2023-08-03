@@ -1,0 +1,5 @@
+version: 1
+services:
+  web:
+    port: 3000
+    start: node index.js
