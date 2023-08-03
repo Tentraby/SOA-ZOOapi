@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize');
 const configDB = './config';
 
 const sequelize = new Sequelize(
-  configDB.DB,
+  railway,
   configDB.username,
   configDB.password,
   {
