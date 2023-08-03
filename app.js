@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+import * as dotenv from 'dotenv';
 const animalRoutes = require('./routes/animalRoutes');
 const alimentacionRoutes = require('./routes/alimentacionRoutes');
 const especieRoutes = require('./routes/especieRoutes');
