@@ -19,6 +19,6 @@ app.get('/', (req, res) => {
 });
 
 // Iniciar el servidor
-app.listen(5652, () => {
-  console.log('Servidor iniciado en el puerto 56263');
+app.listen(PORT, () => {
+  console.log('Servidor iniciado en el puerto ');
 });
